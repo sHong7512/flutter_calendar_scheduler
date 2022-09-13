@@ -1,16 +1,27 @@
 # calendar_scheduler
 
-A new Flutter project.
+A Example Flutter project.
 
-## Getting Started
+## Dependencies
 
-This project is a starting point for a Flutter application.
+- 캘린더
 
-A few resources to get you started if this is your first Flutter project:
+table_calendar: ^3.0.7
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 다국어화
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+intl: ^0.17.0
+
+- sql lite와 통신하는 브릿지(ORM)
+
+drift: ^2.1.0
+ 
+sqlite3_flutter_libs: ^0.5.0
+
+path_provider: ^2.0.0
+
+path: ^1.8.2
+
+- 싱글톤 사용 가능( DI 툴 )
+
+get_it: ^7.2.0
